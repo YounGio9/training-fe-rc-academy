@@ -1,0 +1,25 @@
+.sidebar-wrapper {
+  width: 12vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  width: 80%;
+  height: 90%;
+  padding: 25px 0;
+  background-color: black;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-link {
+  text-decoration: none;
+  width: 100%;
+}

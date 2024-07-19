@@ -1,0 +1,62 @@
+.home {
+  background: url("../../../public/images/home-bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: relative;
+}
+
+.home-icon-left,
+.home-icon-right {
+  position: absolute;
+  top: 50%;
+}
+
+.home-icon-left {
+  left: 0;
+}
+
+.home-icon-right {
+  right: 0;
+}
+
+.home-wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.home-title {
+  line-height: 0;
+  font-weight: 400;
+  font-size: 2.5vw;
+}
+
+.home-wrapper p {
+  text-align: center;
+}
+
+.home-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.home-btn {
+  background-color: white;
+  font-size: 20px;
+  width: calc(100% / 3);
+  text-transform: uppercase;
+  padding: 8px 0;
+  border: 0;
+  font-family: var(--main-font);
+  font-weight: 200;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}

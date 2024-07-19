@@ -1,0 +1,13 @@
+.sidebar-icon {
+  color: white;
+  font-size: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.menu-active {
+  background-color: wheat;
+  color: black;
+}
